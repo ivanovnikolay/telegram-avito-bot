@@ -32,7 +32,7 @@ services:
 
   mongodb:
     restart: always
-    image: mongo:latest
+    image: mongo:5.0.11
     environment:
       - MONGO_DATA_DIR=/dockerdata/db
     volumes:
